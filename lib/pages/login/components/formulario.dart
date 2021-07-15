@@ -48,7 +48,7 @@ class MyCustomFormState extends State<MyCustomForm> {
               validator: (value) {
                 if (value == null || value.isEmpty) {
                   return 'Insira sua senha.';
-                } else if (value.length > 6) {
+                } else if (value.length < 6) {
                   return 'Quantidade de caracteres inválido.';
                 }
                 return null;

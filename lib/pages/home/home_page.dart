@@ -46,10 +46,28 @@ class _HomePageState extends State<HomePage> {
               child: Column(
                 children: [
                   ItemList(
-                    title: 'Um texto Aqui: ',
+                    title: 'Exercício: ',
                     color: Color(0xff845bef),
                     value: '16%',
                     icon: Icons.run_circle,
+                  ),
+                  ItemList(
+                    title: 'Trabalho: ',
+                    color: Color(0xff13d38e),
+                    value: '15%',
+                    icon: Icons.work,
+                  ),
+                  ItemList(
+                    title: 'Saúde: ',
+                    color: Color(0xff0293ee),
+                    value: '40%',
+                    icon: Icons.medical_services,
+                  ),
+                  ItemList(
+                    title: 'Estudo: ',
+                    color: Color(0xfff8b250),
+                    value: '30%',
+                    icon: Icons.menu_book,
                   ),
                 ],
               ),
