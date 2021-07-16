@@ -45,6 +45,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                 hintStyle: TextStyle(color: Colors.grey[400]),
               ),
               keyboardType: TextInputType.visiblePassword,
+              obscureText: true,
               validator: (value) {
                 if (value == null || value.isEmpty) {
                   return 'Insira sua senha.';
