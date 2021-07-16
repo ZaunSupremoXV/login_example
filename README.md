@@ -2,7 +2,7 @@
 
 <div id="inicio"></div>
 
-<img src="https://i.imgur.com/8Frqef7.png" alt="exemplo imagem" width="450"> <img src="https://i.imgur.com/GJfEYx6.gif" alt="exemplo imagem" width="450">
+<img src="https://i.imgur.com/spWHZLs.jpg" height="600em" /> <img src="https://i.imgur.com/oIAg27I.jpg" height="600em"/>
 
 > Esse projeto serve de exemplo de uma interface de login em Flutter.
 
